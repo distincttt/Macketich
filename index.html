@@ -5,62 +5,256 @@
    <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
    <head>
       <!-- Заголовок страницы в браузере -->
-      <title>Подключаем шрифты</title>
+      <title>Macketich</title>
       <!-- Подключаем CSS -->
       <link rel="stylesheet" href="scss/style.css" />
       <!-- Кодировка страницы -->
       <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-	  <meta name="viewport" content="width=device-width" >
+      <meta name="viewport" content="width=device-width" />
    </head>
    <!-- Отображаемое тело страницы -->
    <body>
-      <div class="textoriginal">
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, adipisci ea, obcaecati
-            nisi quia enim, doloribus non minima sunt voluptas distinctio magnam. Illo voluptas
-            provident aliquid velit, dolorum fugit minus!
-         </p>
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit laborum assumenda eos
-            aliquid, doloremque nulla totam quos sequi illum, perspiciatis magni minima, voluptate
-            quis! Tempore aliquam itaque recusandae adipisci ab.
-         </p>
-      </div>
-      <div class="text">
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, adipisci ea, obcaecati
-            nisi quia enim, doloribus non minima sunt voluptas distinctio magnam. Illo voluptas
-            provident aliquid velit, dolorum fugit minus!
-         </p>
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit laborum assumenda eos
-            aliquid, doloremque nulla totam quos sequi illum, perspiciatis magni minima, voluptate
-            quis! Tempore aliquam itaque recusandae adipisci ab.
-         </p>
-      </div>
-      <div class="text__PFDin">
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, adipisci ea, obcaecati
-            nisi quia enim, doloribus non minima sunt voluptas distinctio magnam. Illo voluptas
-            provident aliquid velit, dolorum fugit minus!
-         </p>
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit laborum assumenda eos
-            aliquid, doloremque nulla totam quos sequi illum, perspiciatis magni minima, voluptate
-            quis! Tempore aliquam itaque recusandae adipisci ab.
-         </p>
-      </div>
-      <div class="text__PFDinMedium">
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, adipisci ea, obcaecati
-            nisi quia enim, doloribus non minima sunt voluptas distinctio magnam. Illo voluptas
-            provident aliquid velit, dolorum fugit minus!
-         </p>
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit laborum assumenda eos
-            aliquid, doloremque nulla totam quos sequi illum, perspiciatis magni minima, voluptate
-            quis! Tempore aliquam itaque recusandae adipisci ab.
-         </p>
+      <div class="container">
+         <aside class="aside">
+            <header class="aside__header">
+               <img src="img/aside__header.svg" alt="#" />
+               <img src="img/aside__header2.svg" alt="#" class="purple" />
+            </header>
+            <menu class="aside__menu">
+               <nav class="aside__item">Ремонт техники</nav>
+               <nav class="aside__item item">
+                  <img src="img/highlight.svg" alt="#" />Услуги и сервисы
+               </nav>
+               <nav class="aside__item">Корпоративным клиентам</nav>
+               <nav class="aside__item">Продавцам техники</nav>
+               <nav class="aside__item">Партнерам</nav>
+               <nav class="aside__item">Производителям</nav>
+               <nav class="aside__item">Наши сервисные центры</nav>
+               <nav class="aside__item">Контакты</nav>
+            </menu>
+            <contact class="aside__footer">
+               <div class="aside__btns">
+                  <img src="img/aside__footer.svg" alt="#" class="purple" />
+                  <img src="img/aside__footer2.svg" alt="#" class="purple" />
+                  <img src="img/aside__footer3.svg" alt="#" class="purple" />
+               </div>
+               <p>mail@cps.com</p>
+               <p>8 800 890 8900</p>
+               <div class="aside__lang">
+                  <span>RU</span>
+                  <span>EN</span>
+                  <span>CH</span>
+               </div>
+            </contact>
+         </aside>
+         <main class="main">
+            <header class="main__header">
+               <h1 class="main__h1"><img src="img/highlightBig.svg" alt="#" />Услуги и сервисы</h1>
+               <div class="main__h2s">
+                  <h2 class="main__h2">
+                     Оставить заявку
+                     <img src="img/h2__header1.svg" alt="#" class="purple" />
+                  </h2>
+                  <h2 class="main__h2">
+                     Статус ремонта
+                     <img src="img/h2__header2.svg" alt="#" class="purple" />
+                  </h2>
+               </div>
+            </header>
+            <menu class="main__menu">
+               <nav class="main__nav nav1">Ремонтируемые бренды</nav>
+               <nav class="main__nav">Ремонтируемые устройства</nav>
+               <nav class="main__nav">Цены на услуги</nav>
+               <nav class="main__nav">Адреса сервисных центров</nav>
+               <nav class="main__nav">Специальные цены</nav>
+               <nav class="main__nav">Отзывы</nav>
+            </menu>
+            <section class="main__aboutus">
+               <article class="main__aboutus-column1">
+                  <p>
+                     Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у
+                     нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией
+                     производителя.
+                  </p>
+                  <p>
+                     Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что
+                     подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам
+                     обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                  </p>
+                  <div class="btns">
+                     <img src="img/main__btn.svg" alt="#" />
+                     <button class="btn">Читать далее</button>
+                  </div>
+               </article>
+               <div class="main__aboutus-column2">
+                  <img src="img/main__aboutus-column2.jpg" alt="#" class="main__aboutus-img" />
+               </div>
+            </section>
+            <img src="img/line.svg" alt="#" />
+            <section class="main__company">
+               <h1>РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h1>
+               <menu class="main__company-menu">
+                  <div class="main__company-logo">
+                     <img src="img/lenovo.svg" alt="#" class="main__company-img" />
+                     <img src="img/pointer.svg" alt="#" class="pointer" />
+                  </div>
+                  <div class="main__company-logo">
+                     <img src="img/samsung.svg" alt="#" class="main__company-img" />
+                     <img src="img/pointer.svg" alt="#" class="pointer" />
+                  </div>
+                  <div class="main__company-logo">
+                     <img src="img/apple.svg" alt="#" class="main__company-img" />
+                     <img src="img/pointer.svg" alt="#" class="pointer" />
+                  </div>
+                  <div class="main__company-logo">
+                     <img src="img/viewSonic.svg" alt="#" class="main__company-img" />
+                     <img src="img/pointer.svg" alt="#" class="pointer" />
+                  </div>
+                  <div class="main__company-logo">
+                     <img src="img/bosch.svg" alt="#" class="main__company-img" />
+                     <img src="img/pointer.svg" alt="#" class="pointer" />
+                  </div>
+                  <div class="main__company-logo">
+                     <img src="img/hp.svg" alt="#" class="main__company-img" />
+                     <img src="img/pointer.svg" alt="#" class="pointer" />
+                  </div>
+                  <div class="main__company-logo">
+                     <img src="img/acer.svg" alt="#" class="main__company-img" />
+                     <img src="img/pointer.svg" alt="#" class="pointer" />
+                  </div>
+                  <div class="main__company-logo">
+                     <img src="img/sony.svg" alt="#" class="main__company-img" />
+                     <img src="img/pointer.svg" alt="#" class="pointer" />
+                  </div>
+               </menu>
+               <div class="btns">
+                  <img src="img/main__btn.svg" alt="#" />
+                  <button class="btn">Показать всё</button>
+               </div>
+            </section>
+            <img src="img/line.svg" alt="#" />
+            <section class="main__attendance">
+               <h1>РЕМОНТ РАЗЛИЧНЫХ ВИДОВ ТЕХНИКИ</h1>
+               <menu class="main__attendance-menu">
+                  <div class="main__attendance-service">
+                     <span>Ремонт ноутбуков</span>
+                     <img src="img/pointer.svg" alt="#" class="pointer attendance-pointer" />
+                  </div>
+                  <div class="main__attendance-service">
+                     <span>Ремонт планшетов</span>
+                     <img src="img/pointer.svg" alt="#" class="pointer attendance-pointer" />
+                  </div>
+                  <div class="main__attendance-service">
+                     <span>Ремонт ПК</span>
+                     <img src="img/pointer.svg" alt="#" class="pointer attendance-pointer" />
+                  </div>
+                  <div class="main__attendance-service">
+                     <span>Ремонт мониторов</span>
+                     <img src="img/pointer.svg" alt="#" class="pointer attendance-pointer" />
+                  </div>
+               </menu>
+               <div class="btns">
+                  <img src="img/main__btn.svg" alt="#" />
+                  <button class="btn">Показать всё</button>
+               </div>
+            </section>
+            <img src="img/line.svg" alt="#" />
+            <section class="main__price">
+               ЦЕНЫ НА УСЛУГИ
+               <menu class="main__price-menu">
+                  <div class="main__price-header">
+                     <div class="main__price-name">
+                        <span>Ремонтные услуги</span>
+                        <span>Цена</span>
+                     </div>
+                     <span class="main__price-term">Срок</span>
+                  </div>
+                  <div class="main__services">
+                     <div class="main__price-name">
+                        <span>Диагностика</span>
+                        <span>Бесплатно</span>
+                     </div>
+                     <div class="main__price-term">
+                        <span>30 мин</span>
+                        <div class="main__price-btn">
+                           <span>Заказать</span>
+                           <img src="img/price__btn.svg" alt="#" />
+                        </div>
+                     </div>
+                  </div>
+                  <div class="main__services">
+                     <div class="main__price-name">
+                        <span>Замена дисплея</span>
+                        <span>1000</span>
+                     </div>
+                     <div class="main__price-term">
+                        <span>30-120 мин</span>
+                        <div class="main__price-btn">
+                           <span>Заказать</span>
+                           <img src="img/price__btn.svg" alt="#" />
+                        </div>
+                     </div>
+                  </div>
+                  <div class="main__services">
+                     <div class="main__price-name">
+                        <span>Замена полифонического динамика</span>
+                        <span>1000</span>
+                     </div>
+                     <div class="main__price-term">
+                        <span>30-120 мин</span>
+                        <div class="main__price-btn">
+                           <span>Заказать</span>
+                           <img src="img/price__btn.svg" alt="#" />
+                        </div>
+                     </div>
+                  </div>
+                  <div class="main__services">
+                     <div class="main__price-name">
+                        <span>Тестирование с выдачей технического заключения</span>
+                        <span>1000</span>
+                     </div>
+                     <div class="main__price-term">
+                        <span>30-120 мин</span>
+                        <div class="main__price-btn">
+                           <span>Заказать</span>
+                           <img src="img/price__btn.svg" alt="#" />
+                        </div>
+                     </div>
+                  </div>
+                  <div class="main__services">
+                     <div class="main__price-name">
+                        <span>Замена программного обеспечения</span>
+                        <span>1000</span>
+                     </div>
+                     <div class="main__price-term">
+                        <span>30-120 мин</span>
+                        <div class="main__price-btn">
+                           <span>Заказать</span>
+                           <img src="img/price__btn.svg" alt="#" />
+                        </div>
+                     </div>
+                  </div>
+               </menu>
+               <article>
+                  Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для
+                  получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
+               </article>
+               <div class="main__btnlast">
+                  <button class="btn">Получить коммерческое предложение</button>
+                  <img src="img/main__btnlast.svg" alt="#" />
+               </div>
+            </section>
+            <footer class="main__footer">
+               <div class="main__2019">
+                  <p>© 2019 CPS</p>
+                  <p>Разработано командой Apesong</p>
+               </div>
+               <a href="#" class="main__footer-a">Политика конфиденциальности</a>
+               <span
+                  >Информация, размещенная на данной странице, не является публичной офертой</span
+               >
+            </footer>
+         </main>
       </div>
    </body>
 </html>
